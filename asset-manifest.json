@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/olxapp/static/css/main.3fbf37b3.chunk.css",
+    "main.js": "/olxapp/static/js/main.ea4931cb.chunk.js",
+    "main.js.map": "/olxapp/static/js/main.ea4931cb.chunk.js.map",
+    "runtime-main.js": "/olxapp/static/js/runtime-main.2b27b3e6.js",
+    "runtime-main.js.map": "/olxapp/static/js/runtime-main.2b27b3e6.js.map",
+    "static/js/2.806f4b76.chunk.js": "/olxapp/static/js/2.806f4b76.chunk.js",
+    "static/js/2.806f4b76.chunk.js.map": "/olxapp/static/js/2.806f4b76.chunk.js.map",
+    "index.html": "/olxapp/index.html",
+    "precache-manifest.2fe3761e4ea65d34ea49b6b5979e75e8.js": "/olxapp/precache-manifest.2fe3761e4ea65d34ea49b6b5979e75e8.js",
+    "service-worker.js": "/olxapp/service-worker.js",
+    "static/css/main.3fbf37b3.chunk.css.map": "/olxapp/static/css/main.3fbf37b3.chunk.css.map",
+    "static/js/2.806f4b76.chunk.js.LICENSE.txt": "/olxapp/static/js/2.806f4b76.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/olxapp/static/media/avatar.c9531080.png",
+    "static/media/banner1.jpg": "/olxapp/static/media/banner1.161a91af.jpg",
+    "static/media/note9.jpg": "/olxapp/static/media/note9.ba7da51b.jpg",
+    "static/media/staticmap.png": "/olxapp/static/media/staticmap.2246718e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b27b3e6.js",
+    "static/js/2.806f4b76.chunk.js",
+    "static/css/main.3fbf37b3.chunk.css",
+    "static/js/main.ea4931cb.chunk.js"
+  ]
+}
