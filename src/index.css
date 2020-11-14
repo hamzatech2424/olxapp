@@ -1,0 +1,499 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.navbar{
+  width: 100%;
+  height: 45px;
+  background-color: rgba(0,47,52,.03);
+}
+
+.inner_nav{
+  width: 800px;
+  height: 45px;
+  margin: 0px auto;
+  position: relative;
+  
+}
+
+.img{
+  /* display: inline-block; */
+  float: left;
+  /* width: 100px; */
+  
+}
+
+
+.location{
+  /* display:inline-block; */
+  float: left;
+  width: 175px;
+  height: 26px;
+  background-color:white;
+  margin-left: 70px;
+  position: absolute;
+  top:9px;
+  border: 1px solid black;
+  border-radius: 4px;
+  
+  
+}
+
+.input1{
+  border: none;
+  width: 123px;
+  height: 70%;
+  padding-left: 5px;
+  font-size: 11px;
+  
+
+}
+
+/* .postaddbtn{
+  background-color: greenyellow;
+  width: 100px;
+  height: 50px;
+  float:right;
+} */
+
+
+.arrow {
+transform:.5s;
+position: relative;
+}
+
+.up {
+rotate: 180deg;
+}
+
+
+.input1:focus{
+border:none;
+}
+
+.selected{
+  float:right;
+}
+
+.nav_button{
+  background-color: white;
+  border: none;
+ height: 30px;
+}
+
+.Search{
+  float: left;
+  /* display: inline-block; */
+  width: 400px;
+  height:45px;
+  margin-left: 205px;
+  /* background-color: green; */
+}
+
+/* .Icons{
+  float:right;
+  width: 300px;
+  height:50px;
+  background-color: red;
+} */
+
+.Categories{
+  width: 900px;
+  border-bottom: 1px solid #F7F8F9 ;
+  height: 24px;
+  margin: 0px auto;
+}
+
+.navlinks{
+  text-decoration: none;
+  font-size: 9px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color:#002f34;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+
+.navlinks:hover{
+  color: rgb(100, 197, 165);
+}
+
+.sub_options{
+  width: 200px;
+  height: 200px;
+}
+
+.Sell_button{
+  background-color: green;
+  color:white;
+  width: 50px;
+  height: 28px;
+  border: none;
+  margin: 0px 10px;
+  margin-top: 7px;
+  border-radius: 4px;
+
+}
+
+.login_button{
+  background-color:#2B65EA;
+  color:white;
+  width: 50px;
+  height: 28px;
+  margin: 0px 10px;
+  margin-top: 7px;
+  border: none;
+  border-radius: 4px;
+  
+}
+
+.buttons_div{
+  /* background-color: hotpink; */
+  height: 100%;
+  width: 140px;
+  position: relative;
+  float: right;
+}
+
+.login_button:hover {
+  /* background-color: black; */
+  color: white;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border:1px solid grey;
+}
+
+
+
+.Card_Container{
+  float: left;
+  width: 175px;
+  height: 170px;
+  background-color: white;
+  border: 0.5px solid rgba(0,47,52,.64);
+  border-radius: 2px;
+  position: relative;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.patti_sidepay{
+  width: 2px;
+  height: 60px;
+  background-color: #ffce32;
+ position: absolute;
+ bottom: 0px;
+}
+
+.Featured{
+  width: 45px;
+  height: 10px;
+  background-color: #ffce32;
+  position: absolute;
+  top:5px;
+  left: 5px;
+  line-height: 11px;
+}
+
+.card_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 55%;
+  height:53%
+  
+
+}
+
+.card_text{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.card_heart{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.card_date{
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+
+}
+
+.post_container{
+  width: 500px;
+  height: 830px;
+  border: 1px solid #e2e3e4;
+  margin: 0px auto;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.inner_post{
+  width: 450px;
+  height: 550px;
+  /* border: 1px solid black; */
+  margin: 0px auto;
+  margin-top: 10px;
+}
+
+.recoomend{
+  background-color: #ebeeef;
+  width: 800px;
+  height: 230px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.inner_form1{
+  width: 449px;
+  height: auto;
+  border-bottom: 1px solid #e2e3e4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.inner_form2{
+  border-bottom: 1px solid #e2e3e4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 4px;
+}
+
+.price_input{
+  width:165px;
+  height:21px;
+  border: 1px solid black;
+}
+
+.inner_post label {
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+  font-size: 12px;
+}
+
+.Sell_button:hover{
+  background-color: green;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border:1px solid grey;
+}
+
+.inner_form2 h4{
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+  font-size: 14px;
+}
+
+
+.img_upload{
+  height: 150px;
+  margin-top:10px ;
+}
+
+.image_div{
+  background-color: black;
+  width: 550px;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.Featured_for_products{
+  width: 60px;
+  height: 15px;
+  background-color: #ffce32;
+  position: absolute;
+  top:20px;
+  left: 5px;
+  line-height: 16px;
+}
+
+.description{
+  margin-top: 10px;
+  height: 200px;
+  width: 550px;
+  position: relative;
+  border: 1px solid #d8dadb;
+  border-radius: 5px;
+}
+
+.details_first_div{
+  float: left;
+}
+
+.details_Second_div{
+float: right;
+}
+
+.price_div{
+  border: 1px solid #d8dadb;
+  border-radius: 3px;
+  height: 110px;
+  width: 230px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.seller_description{
+  border: 1px solid #d8dadb;
+  border-radius: 3px;
+  height: 190px;
+  width: 230px;
+  margin-top: 10px; 
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.seller_div_internal{
+  
+  height: 50px;
+  display: inline;
+
+}
+
+.chat_with_seller_btn{
+  margin-left: 5px;
+  margin-top: 8px;
+  background-color: #002f34;
+  color: white;
+  border:none;
+  padding:8px;
+  width: 200px;
+  font-size: 10px;
+}
+
+.chat_with_seller_btn:hover{
+  background-color: white;
+  color: #002f34;
+}
+
+.phone{
+  margin-top: 15px;
+  /* background-color: #2B65EA; */
+  width: 200px;
+  height: 20px;
+  padding-left: 35px;
+}
+
+.posted{
+  margin-top: 15px;
+  border: 1px solid #d8dadb;
+}
+
+.login_main_div{
+  background-color: #ebeeef;
+  width: 300px;
+  height: 280px;
+  margin: 0px auto; 
+  margin-top: 60px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.login_inner_div{
+  width: 250px;
+  height: 280px;
+  margin: 0px auto;
+  padding-top: 40px; 
+  margin-top: 20px;
+}
+
+.login_inner_div label{
+  font-family:Roboto,Arial,Helvetica,sans-serif ;
+}
+
+.login_inner_div input {
+  width: 250px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.passworerror_show{
+  font-size: 10px;
+font-family:Roboto,Arial,Helvetica,sans-serif ;
+color: red;
+}
+
+.signin{
+  background-color: green;
+  color: white;
+  width: 90px;
+  height: 25px;
+  margin-left: 80px;
+  margin-top:10px;
+margin-bottom: 5px;
+  
+}
+
+.signup{
+ background-color: red;
+ color: white;
+ width: 90px;
+ height: 25px;
+ margin-left: 80px;
+ margin-top:10px;
+ margin-bottom: 5px;
+}
+
+.span__insignin{
+  color: red;
+}
+
+.span__insignup{
+  color: green;
+}
+
+.Btn_Container p{
+font-size: 12px;
+font-family:Roboto,Arial,Helvetica,sans-serif ;
+margin-left: 45px;
+margin-top: 5px;
+}
+
+.load_more{
+  margin:0px auto;
+  padding: 5px;
+  height:50px;
+  width: 90px;
+
+}
+
+.load_More_btn{
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid #002f34 ;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 100px;
+
+
+}
+
+/* 
+.whole_footer{
+  background-color: black;
+  position: fixed;
+} */
+
+
+
+.myfooter{
+  position: fixed;
+  bottom: 0px;
+  background-color: #002f34 ;
+  height: 30px;
+  width:800px;
+  margin-top:50px
+
+  
+}
+
